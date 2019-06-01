@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <title>Javascript and JQuery Flashcards</title>
+  </head>
+  <body>
+    <div class="container intro">
+      <div class="row">
+        <div class="col">
+          <h1>Javascipt and JQuery Flashcards</h1>
+          <p>This is a webpage that is a flashcard site for learning JS & jQuery. Please click on a term or concept to see the definition appear. When you click on the definition, the original term replaces its definition.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="col">
+        <div class="row">
+          <div class="col card">
+            <h1 id="head1" class="clickable">Javascript (JS)</h1>
+            <p class="definition" id="definition1">JavaScript is a client-side scripting language, which means the source code is processed by the client's web browser rather than on the web server. This means JavaScript functions can run after a webpage has loaded without communicating with the server. For example, a JavaScript function may check a web form before it is submitted to make sure all the required fields have been filled out. The JavaScript code can produce an error message before any information is actually transmitted to the server.<br>
+            <span class="closeX">X</span>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head2" class="clickable">Operators</h1>
+            <p class="definition" id="definition2">JavaScript operators are used to assign values, compare values, perform arithmetic operations, and more. Arithmetic operators are used to perform arithmetic between variables and/or values. Given that y = 5, the examples below explains the arithmetic operators:
+              <ul class="definition2a">
+                <li class="definition2a"><b>+</b>	Addition | x = y + 2	| y = 5	| x = 7</li>
+                <li class="definition2a"><b>-</b>  Subtraction | x = y - 2 | y = 5 | x = 3<li>
+                <li class="definition2a"><b>*</b> Multiplication	| x = y * 2	| y = 5	| x = 10</li>
+                <li class="definition2a"><b>/</b> Division	| x = y / 2	| y = 5	| x = 2.5</li>
+                <li class="definition2a"><b>%</b> Modulus (division remainder) | x = y % 2 | y = 5 | x = 1</li>
+                <li class="definition2a"><b>++</b> Increment before | x = ++y | y = 6 | x = 6</li>
+                <li class="definition2a"><b>++</b> Increment after | x = y++ | y = 6 | x = 5</li>
+                <li class="definition2a"><b>--</b> Decrement before | x = --y | y = 4 | x = 4</li>
+                <li class="definition2a"><b>--</b> Decrement after | x = y-- | y = 4 | x = 5</li>
+                <span class="closeX">X</span>
+              </ul>
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head3" class="clickable">Variables</h1>
+            <p class="definition" id="definition3">Variable means anything that can vary. JavaScript includes variables which hold the data value and it can be changed anytime. JavaScript uses reserved keyword var to declare a variable. A variable must have a unique name. You can assign a value to a variable using equal to (<b>=</b>) operator when you declare it or before using it.<br>
+            <span class="closeX">X</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head4" class="clickable">Variable naming conventions</h1>
+            <p class="definition" id="definition4">While naming your variables in JavaScript, keep some rules in mind. The following are the variable naming conventions in JavaScript:<br>
+            &nbsp;&nbsp;&nbsp;You should not use any of the JavaScript reserved keywords as a variable name. These keywords are mentioned in the next section. For example, break or boolean variable names are not valid. JavaScript variable names should not start with a numeral (0-9). They must begin with a letter or an underscore character. For example, 123test is an invalid variable name but _123test is a valid one.<br>
+            &nbsp;&nbsp;&nbsp;JavaScript variable names are case-sensitive. For example, Name and name are two different variables.<br>
+            &nbsp;&nbsp;&nbsp;Here are the examples:<br>
+            &nbsp;&nbsp;&nbsp;var name; // correct<br>
+            &nbsp;&nbsp;&nbsp;var 2name; // incorrect<br>
+            &nbsp;&nbsp;&nbsp;var _2name; // correct<br>
+            <span class="closeX">X</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head5" class="clickable">Functions</h1>
+            <p class="definition" id="definition5">Functions are one of the fundamental building blocks in JavaScript. A function is a JavaScript procedure—a set of statements that performs a task or calculates a value. To use a function, you must define it somewhere in the scope from which you wish to call it.<br>
+            &nbsp;&nbsp;&nbsp;A function definition (also called a function declaration, or function statement) consists of the function keyword, followed by:<br>
+            &nbsp;&nbsp;&nbsp;The name of the function.<br>
+            &nbsp;&nbsp;&nbsp;A list of parameters to the function, enclosed in parentheses and separated by commas.<br>
+            &nbsp;&nbsp;&nbsp;The JavaScript statements that define the function, enclosed in curly brackets, { }.<br>
+            <span class="closeX">X</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head6" class="clickable">Methods</h1>
+            <p class="definition" id="definition6">A method is a piece of code that is called by name that is associated with an object. In most respects it is identical to a function except for two key differences. Function is a set of code to do some task in JavaScript. Method is also a function which is used as a property in Object.<br>
+            So? A method is a function that affects the window object: https://john-dugan.com/javascript-functions-vs-methods/<br>
+            <span class="closeX">X</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head7" class="clickable">Arguments</h1>
+            <p class="definition" id="definition7">Javascript is a functional language meaning that functions are the primary modular units of execution. Functions are obviously very important in Javascript. When talking about functions, the terms parameters and arguments are often interchangeably used as if it were one and the same thing but there is a very subtle difference.<br>
+            &nbsp;&nbsp;&nbsp;Parameters are variables listed as a part of the function definition.<br>
+            &nbsp;&nbsp;&nbsp;Arguments are values passed to the function when it is invoked.<br>
+            &nbsp;&nbsp;&nbsp;Why should we bother about this minute difference?<br>
+            &nbsp;&nbsp;&nbsp;Well for starters, JavaScript does not throw an error if the number of arguments passed during a function invocation are different than the number of parameters listed during function definition. This should make it clear that parameters and arguments should be treated as two different entities.<br>
+            <i>Basic function with three parameters that logs the sum of all the parameters</i><br>
+            function argCheck(parameter1, parameter2, parameter3){ console.log(parameter1 + parameter2 + parameter3);}<br>
+            <i>// Function with extra arguments</i><br>
+            argCheck(1,2,3,4);<br>
+            <i>// Logs 6 (1 + 2 + 3, ignores 4)</i><BR>
+            <i>// Function with missing arguments</i><br>
+            argCheck(1,2);<br>
+            <i>// Logs NaN because by default if a corresponding argument is missing, it is set to undefined.<br>
+            // parameter3 is assigned undefined and so 1+2+undefined = NaN<br>// Note that, no error is thrown</i><br>
+            &nbsp;&nbsp;&nbsp;In the code snippet above the function argCheck takes three parameters according to its function definition. On line 7 we call the function with an extra argument and the code executes without any errors. Similarly on line 11 we invoke the function with an argument less as compared to the number of parameters and it still does not throw any error. Hopefully this has convinced you that there is more to arguments and parameters and this article would discuss some features JavaScript provides in this context.<br>
+            &nbsp;&nbsp;&nbsp;Basically, when excess arguments are provided, they don’t get assigned to any parameters. There are ways to access these excess assignments which we will get to in a bit. On the other hand if we have more parameters than the arguments, the parameters that have no corresponding arguments are set to undefined. Lets explore JS features relating to arguments and parameters one by one.<br>
+            <span class="closeX">X</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head8" class="clickable">Parameters</h1>
+            <p class="definition" id="definition8">Function parameters are the names listed in the function definition.<br>
+            &nbsp;&nbsp;&nbsp;Function arguments are the real values passed to (and received by) the function.<br>
+            &nbsp;&nbsp;&nbsp;JavaScript function definitions do not specify data types for parameters. JavaScript functions do not perform type checking on the passed arguments. JavaScript functions do not check the number of arguments received.<br>
+            <i>Basic function with three parameters that logs the sum of all the parameters</i><br>
+            function argCheck(parameter1, parameter2, parameter3){ console.log(parameter1 + parameter2 + parameter3);}<br>
+            <i>// Function with extra arguments</i><br>
+            argCheck(1,2,3,4);<br>
+            <i>// Logs 6 (1 + 2 + 3, ignores 4)</i><BR>
+            <i>// Function with missing arguments</i><br>
+            argCheck(1,2);<br>
+            <i>// Logs NaN because by default if a corresponding argument is missing, it is set to undefined.<br>
+            // parameter3 is assigned undefined and so 1+2+undefined = NaN<br>// Note that, no error is thrown</i><br>
+            &nbsp;&nbsp;&nbsp;In the code snippet above the function argCheck takes three parameters according to its function definition. On line 7 we call the function with an extra argument and the code executes without any errors. Similarly on line 11 we invoke the function with an argument less as compared to the number of parameters and it still does not throw any error. Hopefully this has convinced you that there is more to arguments and parameters and this article would discuss some features JavaScript provides in this context.<br>
+            &nbsp;&nbsp;&nbsp;Basically, when excess arguments are provided, they don’t get assigned to any parameters. There are ways to access these excess assignments which we will get to in a bit. On the other hand if we have more parameters than the arguments, the parameters that have no corresponding arguments are set to undefined. Lets explore JS features relating to arguments and parameters one by one.<br>
+            <span class="closeX">X</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head9" class="clickable">Return</h1>
+            <p class="definition" id="definition9">The return statement stops the execution of a function and returns a value from that function. Functions are declared with the following syntax:<br>
+            <b>function functionName(parameters) {
+              <i>// code to be executed</i>
+            }</b><br>
+            Declared functions are not executed immediately. They are "saved for later use", and will be executed later, when they are invoked (called upon).<br>
+            <b>Example:</b><br>
+            function myFunction(a, b) <br>
+            &nbsp;&nbsp;return a * b;<br>
+            }<br>
+            <span class="closeX">X</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head10" class="clickable">Chaining methods</h1>
+            <p class="definition" id="definition10">In answer to how do you write a chaining function similar to jQuery in JavaScript?<br>
+            JQuery chained method example:
+            <i>//When you call one method after the other it's called "chaining"</i><br>
+            $("#main").addClass("red").removeClass("green");<br>
+            <br>
+            The benefit is that we can mutate the same element with several method calls. The key detail is that each method call must return an object with methods we can call.<br>
+            Here’s how you do it:
+            <i>// zappo() is similar to $() for jQuery</i><br>
+            var zappo = function(selector) {
+            &nbsp;&nbsp;&nbsp;var el;<br>
+            <i>// </i><br>
+            <i>//every method called that can be chained must return the object </i><br>
+            var obj = {<br>
+            &nbsp;&nbsp;&nbsp;getEl(selector) {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (el) return el;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return document.querySelector(selector);<br>
+            &nbsp;&nbsp;&nbsp;},<br>
+            &nbsp;&nbsp;&nbsp;addClass(className) {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el.classList.add(className);<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return this;<br>
+            &nbsp;&nbsp;&nbsp;},<br>
+            &nbsp;&nbsp;&nbsp;removeClass(className) {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;el.classList.remove(className);<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return this;<br>
+            &nbsp;&nbsp;&nbsp;}<br>
+            };<br>
+            <i>// (begin div tag) id="main"(close div tag)</i><br>
+            var el = zappo("#main").addClass("red").addClass("green").removeClass("red").getEl();<br>
+            console.log("el", el);<br>
+            <i>// el (begin div tag) id="main" class="green"(close div tag symbol)...(close div tag)</i><br>
+            Not sure i understand this, from https://medium.com/@jamischarles/how-to-chain-functions-in-javascript-6644d44793fd
+            <span class="closeX">X</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head11" class="clickable">Strings</h1>
+            <p class="definition" id="definition11">The String object lets you work with a series of characters; it wraps Javascript's string primitive data type with a number of helper methods.<br>
+            &nbsp;&nbsp;&nbsp;As JavaScript automatically converts between string primitives and String objects, you can call any of the helper methods of the String object on a string primitive.<br>
+            https://www.tutorialspoint.com/javascript/javascript_strings_object.htm for good lists and tips<br>
+            <span class="closeX">X</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head12" class="clickable">Booleans</h1>
+            <p class="definition" id="definition12">The Boolean object represents two values, either "true" or "false". If value parameter is omitted or is 0, -0, null, false, NaN, undefined, or the empty string (""), the object has an initial value of false.<br>
+            https://www.tutorialspoint.com/javascript/javascript_boolean_object.htm for good lists and tips<br>
+            <span class="closeX">X</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head13" class="clickable">Undefined</h1>
+            <p class="definition" id="definition13">The global undefined property represents the primitive value undefined. It is one of JavaScript's primitive types. The property attributes of undefined are that it is not writable, not enumberable and not configurable.<br>
+            So? A method is a function that affects the window object: https://john-dugan.com/javascript-functions-vs-methods/<br>
+            <span class="closeX">X</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head14" class="clickable">NaN</h1>
+            <p class="definition" id="definition14">The global NaN property is a value representing Not-A-Number. The property attributes of undefined are that it is not writable, not enumberable and not configurable. The NaN property represents "Not-a-Number" value. This property indicates that a value is not a legal number. The NaN property is the same as the Number.Nan property. Tip: Use the isNaN() global function to check if a value is a NaN value.<br>
+            <span class="closeX">X</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head15" class="clickable">Escape</h1>
+            <p class="definition" id="definition15">The escape() function was deprecated in JavaScript version 1.5. Use encodeURI() or encodeURIComponent() instead.<br>
+            The escape() function encodes a string.<br>
+            This function makes a string portable, so it can be transmitted across any network to any computer that supports ASCII characters.<br>
+            This function encodes special characters, with the exception of: * @ - _ + . / <br>
+            Warning: Although escape() is not strictly deprecated (as in "removed from the Web standards"), it is defined in Annex B of the ECMA-262 standard, whose introduction states:<br>
+            All of the language features and behaviours specified in this annex have one or more undesirable characteristics and in the absence of legacy usage would be removed from this specification.<br>
+            Programmers should not use or assume the existence of these features and behaviours when writing new ECMAScript code.<br>
+            <span class="closeX">X</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head16" class="clickable">Alert</h1>
+            <p class="definition" id="definition16">The alert() method displays an alert box with a specified message and an OK button.<br>
+            An alert box is often used if you want to make sure information comes through to the user.<br>
+            Note: The alert box takes the focus away from the current window, and forces the browser to read the message. Do not overuse this method, as it prevents the user from accessing other parts of the page until the box is closed.<br>
+            <span class="closeX">X</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head17" class="clickable">Comments</h1>
+            <p class="definition" id="definition17">To create a single line comment in JavaScript, you place two slashes "//" in front of the code or text you wish to have the JavaScript interpreter ignore. Javascipt comments can also be used to prevent execution of code. When you place these two slashes, all text to the right of them will be ignored, until the next line. Single line comments start with //. Any text between // and the end of the line will be ignored by JavaScript (will not be executed).<br>
+            <span class="closeX">X</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head18" class="clickable">jQuery</h1>
+            <p class="definition" id="definition18">jQuery is a JavaScript library that allows web developers to add extra functionality to their websites. ... Once the jQuery library is loaded, a webpage can call any jQuery function supported by the library. Common examples include modifying text, processing form data, moving elements on a page, and performing animations<br>
+            <span class="closeX">X</span></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col card">
+            <h1 id="head19" class="clickable">Attributes</h1>
+            <p class="definition" id="definition19">All attributes are accessible by using the following methods: elem.hasAttribute(name) – checks for existence. elem.getAttribute(name) – gets the value. elem.setAttribute(name, value) – sets the value. https://javascript.info/dom-attributes-and-properties<br>
+            <span class="closeX">X</span></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

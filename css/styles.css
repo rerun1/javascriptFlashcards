@@ -1,0 +1,69 @@
+h1 {
+  text-align: center;
+}
+h1.clickable:hover {
+  cursor: pointer;
+  color: grey;
+}
+p {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.intro {
+  padding-top: 2em;
+}
+.card {
+  margin-top: 0em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em;
+  padding-top: .75em;
+  padding-right: .5em;
+  padding-bottom: .5em;
+  padding-left: .5em;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(220,220,220,0.25);
+}
+.definition {
+  display: none;
+}
+p.definition {
+  padding-top: .75em;
+  padding-right: .5em;
+  padding-bottom: .5em;
+  padding-left: .5em;
+}
+p.definition:hover {
+  cursor: pointer;
+}
+.definition2a {
+  display: none;
+}
+ul {
+  margin-bottom:0;
+}
+ul.definition2a {
+  list-style: none;
+}
+li.definition2a:hover {
+  text-decoration: none;
+  cursor: none;
+}
+.closeX {
+  line-height: .25;
+  float: right;
+  font-weight: bold;
+  color:grey;
+  text-align: right;
+}
+.closeX:hover {
+  font-weight: bold;
+  color: red;
+  cursor: pointer;
+}
